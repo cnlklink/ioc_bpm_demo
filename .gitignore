@@ -1,0 +1,17 @@
+# EPICS generated
+/ioc_tops/ioc_bpm/bin/
+/ioc_tops/ioc_bpm/lib/
+/ioc_tops/ioc_bpm/include/
+db
+dbd
+*_BAK.adl
+documentation.html
+envPaths*
+cdCommands
+dllPath.bat
+auto_settings*.sav*
+configure/*.local
+O.*/
+*~
+.cproject
+.project
