@@ -1,0 +1,25 @@
+# main.yml
+#
+# This file describes the GitHub Actions workflow for commits to the `main` branch.
+#
+# @author jdiamond
+#
+
+name: main
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: Build and test Docker image
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Build Docker image
+        run: make image
+
+      - name: Test image
+        run: make test
