@@ -21,5 +21,5 @@ stop:
 
 test:
 	@docker run --rm -it -d --name test $(IMAGE_NAME); sleep 1
-	@docker run -it --rm pklaus/catools pvget BPM:aiExample | ./validate.pl
+	@docker run --rm pklaus/catools pvget BPM:aiExample | ./validate.pl
 	@docker stop test
