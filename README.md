@@ -1,5 +1,5 @@
 # ioc_bpm_demo
-Demonstration of a Docker-based development workflow for a BPM IOC
+Demonstration of a Docker-based development workflow for a BPM IOC.
 
 Some points of interest:
 * `Dockerfile` shows an example of how to construct a new Docker image that builds upon the EPICS base image.
